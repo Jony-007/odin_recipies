@@ -5,10 +5,13 @@
 }
 
 .container {
-  margin: 16px;
 }
 
 .header {
+  background-image: url("/img/header_bg.jpg");
+  background-position: center;
+  height: 700px;
+  background-size: cover;
 }
 .nav-bar {
   display: flex;
