@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +6,87 @@
 }
 
 .container {
+  font-family: "Pacifico", cursive;
 }
 
 .header {
-  background-image: url("/img/header_bg.jpg");
+  background-image: url("/img/bg.jpg");
   background-position: center;
   height: 700px;
   background-size: cover;
+  position: relative;
 }
 .nav-bar {
   display: flex;
   justify-content: space-between;
+}
+
+.header-title {
+  text-align: center;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 0.166em;
+}
+
+.header-description {
+  position: absolute;
+  color: #fff;
+  left: 30%;
+  top: 42%;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 0.14em;
+}
+
+/* Recipes */
+
+.recipes {
+  /* margin: 50px; */
+  display: flex;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  width: 95%;
+  padding: 10px;
+  justify-content: space-around;
+}
+.biriyani {
+  background-image: url("/img/biriyani.jpg");
+  height: 400px;
+  width: 500px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /* font-size: 21px; */
+  letter-spacing: 0.13em;
+}
+
+.title-des {
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  /* text-align: center; */
+  left: 15px;
+  font-weight: 700;
+}
+
+.recipe-title {
+  font-size: 22px;
+}
+.recipe-des {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* clickabel div */
+
+a.fill-div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
 }
