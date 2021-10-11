@@ -46,18 +46,19 @@
 
 .recipes {
   /* margin: 50px; */
-  display: flex;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
   gap: 10px;
   font-family: "Roboto", sans-serif;
   margin: auto;
   width: 95%;
   padding: 10px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .biriyani {
   background-image: url("/img/biriyani.jpg");
-  height: 400px;
-  width: 500px;
+  height: 300px;
+
   background-position: center;
   background-size: cover;
   position: relative;
@@ -68,7 +69,7 @@
 .title-des {
   color: #fff;
   position: absolute;
-  top: 80%;
+  top: 70%;
   /* text-align: center; */
   left: 15px;
   font-weight: 700;
