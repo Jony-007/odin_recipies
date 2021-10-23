@@ -6,6 +6,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  color: #191c1f;
 }
 
 .container {
@@ -13,24 +14,28 @@ body {
   margin: 0 auto;
 }
 
-.header div {
-  background-clip: ;
-  background-color: #1098ad;
+.header {
+  background-color: #d0c5d5;
+  margin-top: 50px;
   padding: 50px;
-  color: #343a40;
+}
+.header div {
+  background-color: #d0c5d5;
+  padding: 50px;
 }
 
 .header img {
-  width: 500px;
+  width: 400px;
   height: auto;
   margin-top: 50px;
 }
-.header-img-overflow {
+/* .header-img-overflow {
   position: absolute;
   top: 180px;
   left: 850px;
   width: 500px;
-}
+  display: none;
+} */
 .header {
   /* background-image: url("/img/bg.jpg"); */
   /* background-position: center; */
@@ -68,7 +73,7 @@ body {
   /* left: 30%;
   top: 42%; */
   font-weight: 400;
-  font-size: 30px;
+  font-size: 24px;
   letter-spacing: 1.6;
   line-height: -1px;
 }
